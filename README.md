@@ -1,7 +1,7 @@
 <img src="true_friend.png">
 
 # efxMFC-go
-eFriend Expert API Host DLL
+a go wrapper for eFriend Expert API Host DLL
 
 [![Licence](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
@@ -49,7 +49,8 @@ func main() {
         stock_code := []string{"254120", "081000", "005930", "294090", "149950", "052670", "078940"}
         for _, code := range stock_code {
             sync_time := efx.Synchonize(efx.REQ_LIMIT_MS)
-            fmt.Printf("Synchonize() elapsed time: %v, sync time: %dms\n", time.Since(wait_time), sync_time)
+            fmt.Printf("Synchonize() elapsed time: %v, sync time: %dms\n",
+                time.Since(wait_time), sync_time)
             efx.SetSingleData(efx1, 0, "J")
             efx.SetSingleData(efx1, 1, code)
             efx.RequestData(efx1, "SCP", code)

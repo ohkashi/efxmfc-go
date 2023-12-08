@@ -1,7 +1,7 @@
 <img src="true_friend.png">
 
 # efxMFC-go
-a go wrapper for `eFriend Expert` API Host DLL  
+a go wrapper for [`EfxMfc`](https://github.com/ohkashi/EfxMfc)  
 한국투자증권 `eFriend Expert` Host DLL을 위한 Go 패키지
 
 [![Licence](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)

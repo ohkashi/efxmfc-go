@@ -2,6 +2,6 @@ module efx-go
 
 go 1.19
 
-require efxmfc v0.9.9
+require efxmfc v0.9.10
 
-replace efxmfc v0.9.9 => ./efxmfc
+replace efxmfc v0.9.10 => ./efxmfc

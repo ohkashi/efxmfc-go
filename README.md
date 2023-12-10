@@ -73,3 +73,5 @@ func main() {
     efx.Exit()
 }
 ```
+
+![walk-chart](walk-chart.jpg)

@@ -100,7 +100,10 @@ func main() {
 		acnt_no := efx.GetAccount(i)
 		fmt.Printf("Account[%d]: %s, %s\n", i, acnt_no, efx.GetAccountBrcode(acnt_no))
 	}
-	efx1 := efx.NewControl(100, OnRecvData, OnRecvRealData, OnRecvError)
+	efx1 := efx.NewControl(1, OnRecvData, OnRecvRealData, OnRecvError)
+	if efx1 == 0 {
+		panic("efx.NewControl error!")
+	}
 
 	var pwd string
 	fmt.Print("Enter Password: ")

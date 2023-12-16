@@ -8,9 +8,9 @@ require (
 )
 
 require (
-	efxmfc v0.9.10
+	github.com/ohkashi/efxMfc-go v0.9.10
 	github.com/lxn/walk v0.0.0-20210112085537-c389da54e794
 	golang.org/x/sys v0.12.0
 )
 
-replace efxmfc v0.9.10 => ./efxmfc
+replace github.com/ohkashi/efxMfc-go v0.9.10 => ./efxmfc

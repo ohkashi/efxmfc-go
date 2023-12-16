@@ -1,11 +1,12 @@
 package main
 
 import (
-	efx "efxmfc"
 	"fmt"
 	"os"
 	"syscall"
 	"time"
+
+	efx "github.com/ohkashi/efxMfc-go"
 )
 
 var _sig_recv_data bool = false

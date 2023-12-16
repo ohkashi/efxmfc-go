@@ -5,13 +5,14 @@
 package main
 
 import (
-	efx "efxmfc"
 	"fmt"
 	"math"
 	"os"
 	"syscall"
 	"time"
 	"unsafe"
+
+	efx "github.com/ohkashi/efxMfc-go"
 
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"

@@ -12,7 +12,7 @@ import (
 	"time"
 	"unsafe"
 
-	efx "github.com/ohkashi/efxMfc-go"
+	efx "github.com/ohkashi/efxMfc-go/efxmfc"
 
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"

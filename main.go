@@ -6,7 +6,7 @@ import (
 	"syscall"
 	"time"
 
-	efx "github.com/ohkashi/efxMfc-go"
+	efx "github.com/ohkashi/efxMfc-go/efxmfc"
 )
 
 var _sig_recv_data bool = false

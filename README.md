@@ -74,4 +74,6 @@ func main() {
 }
 ```
 
+[walk-chart.go](walk-chart.go)
+
 ![walk-chart](walk-chart.jpg)

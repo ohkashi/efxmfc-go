@@ -8,7 +8,7 @@ a go wrapper for [`EfxMfc`](https://github.com/ohkashi/EfxMfc)
 
 ### Example
 
-This is a simple request tr and realdata. ([main.go](main.go))
+This is a simple request tr and realdata. ([efx-console](https://github.com/ohkashi/efxMfc-go/blob/main/examples/efx-console/main.go))
 
 ```go
 package main
@@ -74,6 +74,6 @@ func main() {
 }
 ```
 
-[walk-chart.go](walk-chart.go)
+[walk-chart](https://github.com/ohkashi/efxMfc-go/blob/main/examples/walk-chart/walk-chart.go)
 
-![walk-chart](walk-chart.jpg)
+![walk-chart](https://github.com/ohkashi/efxMfc-go/blob/main/examples/walk-chart.jpg)

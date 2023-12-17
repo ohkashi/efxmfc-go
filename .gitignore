@@ -1,4 +1,4 @@
 /efx-console.exe
-/walk-chart.exe
-/efxMfc-go.code-workspace
+/examples/walk-chart/walk-chart.exe
+/efxmfc-go.code-workspace
 /go.sum

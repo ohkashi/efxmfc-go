@@ -39,7 +39,8 @@ func main() {
     if len(pwd) == 4 {
         fmt.Printf("Encrypt: %s\n\n", efx.GetEncryptPassword(pwd))
         sync_time := efx.Synchonize(efx.REQ_LIMIT_MS)
-        fmt.Printf("Synchonize() elapsed time: %v, sync time: %dms\n", time.Since(wait_time), sync_time)
+        fmt.Printf("Synchonize() elapsed time: %v, sync time: %dms\n",
+            time.Since(wait_time), sync_time)
         efx.RequestAccountBalance(efx1, efx.GetAccount(acc_cnt-1), pwd)
         wait_time = time.Now()
         wait_recv_data()

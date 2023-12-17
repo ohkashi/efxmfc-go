@@ -1,4 +1,4 @@
-module github.com/ohkashi/efxMfc-go
+module github.com/ohkashi/efxmfc-go
 
 go 1.19
 
@@ -12,4 +12,4 @@ require (
 	golang.org/x/sys v0.12.0
 )
 
-replace github.com/ohkashi/efxMfc-go v0.9.10 => ./
+replace github.com/ohkashi/efxmfc-go v0.9.10 => ./
